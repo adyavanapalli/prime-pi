@@ -4,6 +4,7 @@ OPT=-O3
 
 all:
 
-clean: rm -f bin/* obj/*
+clean:
+	rm -f bin/* obj/*
 
 .PHONY=all clean
