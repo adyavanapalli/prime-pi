@@ -10,12 +10,14 @@ function.
 
 * [`naive-soe.c`](src/sieve-of-eratosthenes/naive-soe.c)
 * [`odd-integers-soe.c`](src/sieve-of-eratosthenes/odd-integers-soe.c)
+* [`bit-packed-odd-integers-soe.c`](src/sieve-of-eratosthenes/bit-packed-odd-integers-soe.c)
 
 ## Benchmarks
 
 ```txt
-[1.00x] naive-soe        [14.51s +- 0.05s] [BASELINE]
-[3.45x] odd-integers-soe [ 4.21s +- 0.01s]
+[1.00x] naive-soe                   [14.45s +- 0.03s] [BASELINE]
+[3.46x] odd-integers-soe            [ 4.18s +- 0.01s]
+[3.38x] bit-packed-odd-integers-soe [ 4.28s +- 0.04s]
 ```
 
 Each benchmark was generated using:
