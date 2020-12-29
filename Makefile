@@ -14,4 +14,4 @@ bin/odd-integers-soe: src/sieve-of-eratosthenes/odd-integers-soe.c
 clean:
 	rm -f bin/* obj/*
 
-.PHONY=all clean 
+.PHONY=all clean
